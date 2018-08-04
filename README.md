@@ -1,3 +1,8 @@
+# Hui Kang comments
+My objective is to detect whether a piece of text made any of the registered claims. This repo only has two Python files, probably it makes the implementation really easy. I chose to start on this first because it is one of the highest scoring and it claims to use a very simple model.
+
+This uses tensorflow which makes it harder to understand for me. 
+
 <p align="center">
 <img src="https://github.com/uclmr/fakenewschallenge/blob/master/images/uclmr_logo.png" alt="UCL Machine Reading" width="25%"/>
 </p>
