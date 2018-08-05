@@ -18,9 +18,21 @@ from util import *
 import random
 import tensorflow as tf
 
+import argparse 
+ap = argparse.ArgumentParser(description='load or train?')
+
+# construct the argument parse and parse the arguments
+ap.add_argument("-m", "--mode", required=True,
+                help="which mode? 'load' or 'train'")
+args = vars(ap.parse_args())
+ 
+# # display a friendly message to the user
+# print("Hi there {}, it's nice to meet you!".format(args["name"]))
 
 # Prompt for mode
-mode = input('mode (load / train)? ')
+mode = args["mode"]
+
+# input('mode (load / train)? ')
 
 
 # Set file names
